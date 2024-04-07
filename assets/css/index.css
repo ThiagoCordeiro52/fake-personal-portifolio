@@ -1,0 +1,26 @@
+:root {
+  --white: #fff; /* background */
+
+  --gray-100: #cdd3eb; /* primary-light */
+  --gray-400: #141c3a; /* primary and secondary-foreground */
+  --green: #5be8b9; /* secondary */
+  --purple: #6e07f3; /* foreground */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
