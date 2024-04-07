@@ -1,5 +1,5 @@
 :root {
-  --white: #fff; /* background */
+  --white: #fff; /* background and primary-foreground */
 
   --gray-100: #cdd3eb; /* primary-light */
   --gray-400: #141c3a; /* primary and secondary-foreground */
@@ -23,4 +23,18 @@ html {
   width: 100%;
   max-width: 1200px;
   margin: auto;
+}
+
+.button {
+  display: inline-block;
+  border: 0.2rem solid var(--purple);
+  color: var(--purple);
+  border-radius: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  transition: all ease 0.2s;
+}
+
+.button:hover {
+  background-color: var(--purple);
+  color: var(--white);
 }
