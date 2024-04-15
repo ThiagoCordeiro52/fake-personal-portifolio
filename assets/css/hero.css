@@ -30,7 +30,7 @@
   height: auto;
 }
 
-@media (width > 600px) {
+@media (min-width: 600px) {
   .hero h1 {
     font-size: 4rem;
   }

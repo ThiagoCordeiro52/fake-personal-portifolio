@@ -33,7 +33,7 @@
   gap: 2rem;
 }
 
-@media (width > 600px) {
+@media (min-width: 600px) {
   .recent-work .title {
     font-size: 3.5rem;
   }
@@ -43,7 +43,7 @@
   }
 }
 
-@media (width > 900px) {
+@media (min-width: 900px) {
   .recent-work .grid {
     grid-template-columns: repeat(3, 1fr);
   }

@@ -22,7 +22,7 @@
   line-height: 3rem;
 }
 
-@media (width > 600px) {
+@media (min-width: 600px) {
   .intro .title {
     font-size: 3rem;
   }
