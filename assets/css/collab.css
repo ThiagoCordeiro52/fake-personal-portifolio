@@ -1,0 +1,43 @@
+.collab {
+  background-color: var(--purple);
+  color: var(--white);
+  padding: 8rem 2rem;
+  text-align: center;
+}
+
+.collab .title {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.collab .subtitle {
+  font-size: 1.7rem;
+  line-height: 2.2rem;
+  margin-bottom: 3rem;
+}
+
+.collab .button {
+  border-color: var(--white);
+  color: var(--white);
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.collab .button:hover {
+  background-color: var(--white);
+  color: var(--purple);
+}
+
+@media (min-width: 600px) {
+  .collab .title {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .collab .subtitle {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
